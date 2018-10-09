@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="application-name" content="stackcompanies.com">
+    <meta name="author" content="Bimal Bhagrath">
+    <meta name="keywords" content="stack, companies, holdings, assets, investments, apps, projects">
+    <meta name="description" content="Stack Companies, Inc. holds a diverse group of businesses in multiple industries including technology, finance and real estate.">
+    <meta name="google-site-verification" content="cm-7rpffb2vCPRRW5KPezEVuLFBF4iDJHRxRGpME1E0">
+    <!-- <noscript>
+        <meta http-equiv="refresh" content="0; url=noscript.html">
+    </noscript> -->
+    <title>Support | Stack Companies, Inc.</title>
+    <link rel="shortcut icon" type="image/png" href="resources/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <!-- <link rel="stylesheet" href="css/shared.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/shared.js"></script>
+    <!-- <script src="js/shared.min.js"></script> -->
+    <script src="js/support.js"></script>
+    <!-- <script src="js/support.min.js"></script> -->
+    <!-- GOOGLE TAG MANAGER -->
+</head>
+<body>
+
+    <div style="min-height: 100vh">
+
+        <!-- HEADER -->
+        <header class="navbar justify-content-center sticky-top">
+            <div style="max-width: 1450px; width: 100%">
+                <div class="brand w-300 ml-3" style="display: inline-flex"><a href="index.html" class="d-none d-sm-inline-block"><span class="w-700">Stack</span> Companies, Inc.</a><a href="index.html" class="d-sm-none"><span class="w-700">S</span>C, Inc.</a></div>
+                <ul class="nav float-right pt-1 mr-3 d-none d-sm-inline-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Index</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets.html">Assets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link w-700 text-black" href="#">Support</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- CONTENT -->
+        <div class="page-content-sm">
+            <div class="card pop mt-4 p-4" style="max-width: 575px; margin: auto">
+                <h1 class="display-4 text-center text-sm-left w-400">Support</h1>
+                <form id="inquiry" class="mt-2" onsubmit="return false">
+                    <p>Feel free to email us directly at <a href="mailto:support@stackcompanies.com">support@stackcompanies.com</a>. Our ticket support system is coming soon.</p>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <input id="name" type="text" class="form-control" placeholder="Your Name" autofocus disabled>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <input id="email" type="text" class="form-control" placeholder="Your Email*" disabled>
+                            <div class="invalid-feedback">Invalid email</div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <select id="asset" class="form-control" disabled>
+                                <option value="" disabled selected>Select One*</option>
+                                <option value="Coursify">Coursify</option>
+                                <option value="getaplace.cc">getaplace.cc</option>
+                                <option value="Stack Companies, Inc.">Stack Companies, Inc.</option>
+                                <option value="Stack Web Services">Stack Web Services</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="invalid-feedback">Please select an option</div>
+                        </div>
+                    </div>
+                    <div id="other-row" class="form-row" style="display: none">
+                        <div class="form-group col-sm-12">
+                            <input id="other" type="text" class="form-control" placeholder="Please specify*">
+                            <div class="invalid-feedback">Enter 'General' for general questions</div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <textarea id="issue" class="form-control" placeholder="How can we help you?" maxlength="4096" style="min-height: 150px" disabled></textarea>
+                            <div class="invalid-feedback">Please include a message</div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <button class="btn btn-dark btn-lg btn-block" disabled>Submit</button>
+                            <!-- <button class="btn btn-dark btn-lg btn-block" onclick="submitForm()" style="background-color: #000" disabled>Submit</button> -->
+                        </div>
+                    </div>
+                </form>
+                <form id="submitted" class="mt-2" onsubmit="return false" style="display: none">
+                    <p>Thank you! We'll get back to you as soon as possible!</p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center" style="border-top: 2px solid #000">
+        <div class="row pt-5 pb-3" style="max-width: 1450px; margin: auto">
+            <div class="col-sm-2"><a href="index.html" class="f-link">Index</a></div>
+            <div class="col-sm-2"><a href="assets.html" class="f-link">Assets</a></div>
+            <div class="col-sm-2"><a href="support.html" class="f-link">Support</a></div>
+            <div class="col-sm-2"><a href="careers.html" class="f-link">Careers</a></div>
+            <div class="col-sm-2">
+                <img class="d-none d-sm-block" src="resources/footer-img.png" style="height: 80px; margin-top: -15px">
+            </div>
+            <div class="col-sm-2 w-300" style="font-size: 1.25rem; line-height: 50px"><span class="w-700">Ottawa</span>, Canada</div>
+        </div>
+        <div class="text-left mt-4 pl-3 pb-2 w-300" style="font-size: 0.95rem">Copyright &copy 2018 <span class="w-700">Stack Companies, Inc.</span> All rights reserved.</div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    background: #fff;
+    box-shadow: rgb(170, 170, 170) 0 3px 4px -4px;
+    opacity: 0.9;
+}
+
+input.form-control::placeholder, textarea.form-control::placeholder {
+    color: #a6aeb5;
+}
+
+label.btn:hover {
+    color: inherit;
+    background-color: transparent;
+}
+
+.app-store {
+    height: 45px;
+}
+
+.brand {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.brand a {
+    color: #000;
+    text-decoration: none;
+}
+
+.card.asset {
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: box-shadow 0.25s;
+    -webkit-transition: box-shadow 0.25s;
+}
+
+.card.asset:hover {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.card.pop {
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.dropdown-item, .nav-link {
+    color: #3d3d3d;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.f-link, .f-link:hover {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.f-link:hover {
+    font-weight: 500;
+}
+
+.invalid-feedback {
+    text-align: left;
+}
+
+.modal-content {
+    border: none;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.page-content {
+    margin: auto;
+    max-width: 1450px;
+    padding: 20px 40px 60px 40px;
+}
+
+.page-content-sm {
+    margin: auto;
+    max-width: 1050px;
+    padding: 20px 40px 60px 40px;
+}
+
+.preview {
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.progress-bar {
+    background: #000;
+}
+
+.text-black, .text-black:hover {
+    color: #000;
+}
+
+.w-300 {
+    font-weight: 300;
+}
+
+.w-400 {
+    font-weight: 400;
+}
+
+.w-500 {
+    font-weight: 500;
+}
+
+.w-700 {
+    font-weight: 700;
+}

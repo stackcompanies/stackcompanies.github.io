@@ -1,0 +1,43 @@
+<svg width="808px" height="535px" viewBox="0 0 808 535" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+<desc>Created with Sketch.</desc>
+<defs>
+    <circle id="path-1" cx="239.5" cy="102.5" r="82.5"></circle>
+    <filter x="-5.5%" y="-4.2%" width="113.3%" height="113.3%" filterUnits="objectBoundingBox" id="filter-2">
+        <feOffset dx="2" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    <circle id="path-3" cx="404.5" cy="267.5" r="82.5"></circle>
+    <filter x="-5.5%" y="-4.2%" width="113.3%" height="113.3%" filterUnits="objectBoundingBox" id="filter-4">
+        <feOffset dx="2" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    <circle id="path-5" cx="569.5" cy="432.5" r="82.5"></circle>
+    <filter x="-5.5%" y="-4.2%" width="113.3%" height="113.3%" filterUnits="objectBoundingBox" id="filter-6">
+        <feOffset dx="2" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+</defs>
+<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Logo">
+        <g id="Oval-3" opacity="0.82">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <animateTransform attributeName="transform" type="translate" from="-100 0" to="420 160" begin="0s" dur="1s" values="420 160; 420 160; -100 0; 0 0" keyTimes="0; 0; 0.35; 1" repeatCount="1"/>
+        </g>
+        <g id="Oval-3" opacity="0.82">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <animateTransform attributeName="transform" type="translate" from="-260 -160" to="260 0" begin="0s" dur="1s" values="260 0; 260 0; -260 -160; 0 0" keyTimes="0; 0.1; 0.35; 1" repeatCount="1"/>
+        </g>
+        <g id="Oval-3" opacity="0.82">
+            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-5"></use>
+            <animateTransform attributeName="transform" type="translate" from="-420 -320" to="100 0" begin="0s" dur="1s" values="100 -160; 100 -160; -420 -320; 0 0" keyTimes="0; 0.2; 0.35; 1" repeatCount="1"/>
+        </g>
+    </g>
+</g>
+</svg>
